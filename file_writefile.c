@@ -6,7 +6,7 @@
 void writefile(node *phead)
 {
 	node *ptr=phead;
-	int i='1';
+	int i='1'; 
 	FILE *des=fopen("file_db.txt","wt");	
  
 	if(ptr==NULL)
