@@ -12,7 +12,7 @@
 		 (*phead)=newnode;
 		 newnode->next=NULL;
 	 }
-	 else
+	 else 
 	 {
 		 while(ptr!=NULL)	
 		 {
