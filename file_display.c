@@ -7,7 +7,7 @@
  {
 	 int i=1;
 	 node *p=head;
-	 while(p!=NULL)
+	 while(p!=NULL) 
 	 {
 		 printf("Execution %d\n",i);
 		 printf("File name: %s\n",(p->data).name);
