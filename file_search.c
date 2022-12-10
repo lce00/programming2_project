@@ -13,6 +13,6 @@
 		 if(!strcmp(ptr->data.name,el.name))	
 			 return ptr;	
 		 ptr=ptr->next;
-	 }
+	 } 
 	 return NULL;
  }
