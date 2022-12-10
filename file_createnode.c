@@ -10,4 +10,4 @@
 	 printf("File extension: ");	scanf("%s",(newnode->data).extension);	
 	 newnode->next=NULL;
 	 return newnode;	
- }
+ } 
