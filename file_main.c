@@ -53,7 +53,7 @@ int main()
 	fclose(des);
 
  	while(1)
- 	{
+ 	{ 
  		printf("*****MENU*****\n");
  		printf("1.Insert\n");
  		printf("2.Delete\n");
