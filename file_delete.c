@@ -8,7 +8,7 @@
 	 node *ptr=*phead;
 	 node *p;
 	 if(ptr==NULL)
-		 return;
+		 return; 
 	 else
 	 {
 		 if(*phead==remove)	
