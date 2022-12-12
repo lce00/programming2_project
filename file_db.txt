@@ -1,12 +1,8 @@
 File1
-File name:cmd
-File extension:c
+File name:new_file_new
+File extension:js
 
 File2
-File name:file1
-File extension:c
-
-File3
-File name:success!
+File name:test
 File extension:c
 

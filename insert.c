@@ -1,7 +1,7 @@
-#include "file_main.h"
 #include <stdio.h>										
 #include <stdlib.h>
 #include <string.h>
+#include "main.h"
 
  void insert(node **phead,node *newnode)
  {
@@ -12,7 +12,7 @@
 		 (*phead)=newnode;
 		 newnode->next=NULL;
 	 }
-	 else 
+	 else
 	 {
 		 while(ptr!=NULL)	
 		 {

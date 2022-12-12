@@ -1,11 +1,12 @@
-all: file_main.c file_createnode.c file_insert.c file_search.c file_delete.c file_display.c file_writefile.c
-	gcc -c file_main.c
-	gcc -c file_createnode.c
-	gcc -c file_insert.c
-	gcc -c file_search.c
-	gcc -c file_delete.c
-	gcc -c file_display.c
-	gcc -c file_writefile.c
+all: main.c createnode.c insert.c search.c delete.c display.c writefile.c
+	gcc -c main.c
+	gcc -c createnode.c
+	gcc -c insert.c
+	gcc -c search.c
+	gcc -c delete.c
+	gcc -c display.c
+	gcc -c writefile.c
+	gcc -c cfile.c
 	gcc -o file *.o
 
 clean:

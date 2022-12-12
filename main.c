@@ -1,10 +1,9 @@
 #include <stdio.h>										
 #include <stdlib.h>
 #include <string.h>
-#include "file_main.h"
+#include "main.h"
 
-
-int main()
+ int main()
  {
  	node *head=NULL;	
  	int num=0;
@@ -53,13 +52,14 @@ int main()
 	fclose(des);
 
  	while(1)
- 	{ 
+ 	{
  		printf("*****MENU*****\n");
  		printf("1.Insert\n");
  		printf("2.Delete\n");
- 		printf("3.Search\n");
+ 		printf("3.Search with file name\n");
  		printf("4.Print All\n");
- 		printf("5.Exit\n");
+		printf("5.Search with extension and Check if cfile\n");
+ 		printf("6.Exit\n");
  		printf("Select the menu: ");
  		scanf("%d",&num);
  
@@ -86,11 +86,14 @@ int main()
  		case 4:
  			display(head);
  			break;
+		case 5:
+			print_cfile(head, cfile);
+			break;
  		default:
 			writefile(head);
  			break;
  		}
- 		if(num==5)
+ 		if(num==6)
  			break;
  	}
  	return 0;

@@ -1,7 +1,7 @@
-#include "file_main.h"
 #include <stdio.h>										
 #include <stdlib.h>
 #include <string.h>
+#include "main.h"
 
  node *createnode(void)
  {
@@ -10,4 +10,4 @@
 	 printf("File extension: ");	scanf("%s",(newnode->data).extension);	
 	 newnode->next=NULL;
 	 return newnode;	
- } 
+ }

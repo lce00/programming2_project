@@ -1,14 +1,14 @@
-#include "file_main.h"
 #include <stdio.h>										
 #include <stdlib.h>
 #include <string.h>
+#include "main.h"
 
  void delete(node **phead, node *remove)
  {
 	 node *ptr=*phead;
 	 node *p;
 	 if(ptr==NULL)
-		 return; 
+		 return;
 	 else
 	 {
 		 if(*phead==remove)	

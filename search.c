@@ -1,7 +1,7 @@
-#include "file_main.h"
 #include <stdio.h>										
 #include <stdlib.h>
 #include <string.h>
+#include "main.h"
 
  node *search(node *phead)
  {
@@ -13,6 +13,6 @@
 		 if(!strcmp(ptr->data.name,el.name))	
 			 return ptr;	
 		 ptr=ptr->next;
-	 } 
-	 return NULL; 
+	 }
+	 return NULL;
  }

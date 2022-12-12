@@ -1,13 +1,13 @@
-#include "file_main.h"
 #include <stdio.h>										
 #include <stdlib.h>
 #include <string.h>
+#include "main.h"
 
  void display(node *head)
  {
 	 int i=1;
 	 node *p=head;
-	 while(p!=NULL) 
+	 while(p!=NULL)
 	 {
 		 printf("Execution %d\n",i);
 		 printf("File name: %s\n",(p->data).name);
